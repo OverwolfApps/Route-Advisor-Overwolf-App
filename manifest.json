@@ -1,0 +1,32 @@
+{
+  "manifest_version":"1",
+  "type":"WebApp",
+  "meta":{
+    "name":"Route Advisor",
+    "version":"1.0",
+    "minimum-overwolf-version": "0.77.4.0",
+    "author":"Bluscream",
+    "icon":"icon.png",
+    "icon_gray":"icon_gray.png",
+    "description":"Route Advisor for ETS 2 and ATS. Needs <a>https://github.com/Funbit/ets2-telemetry-server</a> to work."
+  },
+  "data": {
+    "start_window":"index",
+    "windows":{
+      "index":{
+        "file":"index.html",
+        "transparent":false,
+        "resizable":true,
+        "show_in_taskbar": true,
+        "size": {
+          "width": 650,
+          "height": 250
+        },
+        "start_position": {
+          "Top": 730,
+          "Left": 1380
+        }
+      }
+    },
+  }
+}
